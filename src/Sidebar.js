@@ -1,6 +1,10 @@
-const ArraySygestoes=[{image: "assets/img/bad.vibes.memes.svg", name:"Jorge", action1: "Segue você"}, {image: "assets/img/chibirdart.svg", name:"Zeca", action1: "Novo no Instagram"},{image: "assets/img/razoesparaacreditar.svg", name:"Dunho", action1: "Segue você"},{image: "assets/img/adorable_animals.svg", name:"Wadirene", action1: "Novo no Instagram"},{image: "assets/img/smallcutecats.svg", name:"Mikael", action1: "Novo no Instagram"} ]
+import BottonSidbar from "./BottonSidbar"
 
-function NewSidebar(props){
+
+const ArraySygestoes=[{image: "assets/img/bad.vibes.memes.svg", name:"Jorge", action1: "Segue você"}, {image: "assets/img/chibirdart.svg", name:"Zeca", action1: "Novo no Instagram"},{image: "assets/img/razoesparaacreditar.svg", name:"Dunho", action1: "Segue você"},
+{image: "assets/img/adorable_animals.svg", name:"Wadirene", action1: "Novo no Instagram"},{image: "assets/img/smallcutecats.svg", name:"Mikael", action1: "Novo no Instagram"} ]
+
+function Suggestions(props){
     return(
        <div>
            <div className="sugestao">
@@ -31,6 +35,7 @@ function Usuario(props){
 }
 
 
+
 export default function Sidebar(){
 
     return(
@@ -47,20 +52,14 @@ export default function Sidebar(){
             <div>Ver tudo</div>
           </div>
 
-          {ArraySygestoes.map((ArraySygestoes)=>(<NewSidebar imgSidbar={ArraySygestoes.image} nameSidbar={ArraySygestoes.name} action={ArraySygestoes.action1} />))}
+          {ArraySygestoes.map((ArraySygestoes)=>(<Suggestions imgSidbar={ArraySygestoes.image} nameSidbar={ArraySygestoes.name} action={ArraySygestoes.action1} />))}
 
 
-
+        <BottonSidbar/>
         
         </div>
 
-        <div className="links">
-          Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
-        </div>
 
-        <div className="copyright">
-          © 2021 INSTAGRAM DO FACEBOOK
-        </div>
       </div>
 
     )

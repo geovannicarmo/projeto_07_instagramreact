@@ -1,4 +1,4 @@
-const NameStory = [{image: "assets/img/9gag.svg", name:"Jorge"}, {image: "assets/img/meowed.svg" , name :"Julio"}, {image: "assets/img/wawawicomics.svg" , name :"Janet"}, {image: "assets/img/respondeai.svg" , name :"Sebatião"}, {image: "assets/img/filomoderna.svg" , name :"Zamiliano"}, {image: "assets/img/memeriagourmet.svg" , name :"Giraldelli"} , {image: "assets/img/meowed.svg"} , {image: "assets/img/meowed.svg"}]
+const NameStory = [{image: "assets/img/9gag.svg", name:"Jorge"}, {image: "assets/img/meowed.svg" , name :"Julio"}, {image: "assets/img/wawawicomics.svg" , name :"Janet"}, {image: "assets/img/respondeai.svg" , name :"Sebatião"}, {image: "assets/img/filomoderna.svg" , name :"Zamiliano"}, {image: "assets/img/memeriagourmet.svg" , name :"Giraldelli"} , {image: "assets/img/bad.vibes.memes.svg", name:"Aristidis"} , {image: "assets/img/razoesparaacreditar.svg", name: "Macale"}, {image: "assets/img/razoesparaacreditar.svg", name: "Macale"}]
 
 function NewStory(props){
     return(
